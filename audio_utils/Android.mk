@@ -5,6 +5,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libaudioutils
 LOCAL_MODULE_TAGS := optional
 
+LOCAL_CFLAGS := -std=gnu99
+
 LOCAL_SRC_FILES:= \
 	channels.c \
 	fifo.c \
